@@ -7,7 +7,7 @@ import { Calculator as CalcIcon, PlusCircle, Check } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
 interface CalculatorProps {
-  onAdd: (data: { income: number; amount: number; description: string; date: string }) => void;
+  onAdd: (data: { income: number; amount: number; description: string; date: string; bonusPercentage?: number; bonusAmount?: number }) => void;
 }
 
 export default function Calculator({ onAdd }: CalculatorProps) {
@@ -50,10 +50,10 @@ export default function Calculator({ onAdd }: CalculatorProps) {
       >
         <Card className="border-slate-200 shadow-sm bg-white rounded-xl">
           <CardHeader className="pb-4">
-            <h2 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">Tithe Calculator</h2>
+            <h2 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">APP MADE BY MEDIA TEAM</h2>
             <CardTitle className="text-xl flex items-center gap-2 text-slate-800">
               <CalcIcon className="w-5 h-5 text-blue-600" />
-              Calculator
+              Tithe Calculator
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-4">

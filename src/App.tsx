@@ -17,7 +17,7 @@ import Dashboard from './components/Dashboard';
 import History from './components/History';
 import { Calculator as CalcIcon, LayoutDashboard, History as HistoryIcon, Cross } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { cn } from './lib/utils';
+import { cn } from '@/lib/utils';
 import logo from './assets/Symbol-Circle_47fb0582-4313-40f2-aee7-04d91cd8df01-1.png';
 
 export default function App() {

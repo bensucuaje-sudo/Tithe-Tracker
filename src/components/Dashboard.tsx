@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from './ui/card';
-import { TitheRecord } from '../types';
+import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
+import { TitheRecord } from '@/types';
 import { format, startOfMonth, parseISO, isSameMonth } from 'date-fns';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 import { LayoutDashboard, TrendingUp, PhilippinePeso } from 'lucide-react';

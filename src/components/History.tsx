@@ -1,10 +1,10 @@
-import { TitheRecord } from '@/types';
+import { TitheRecord } from '../types';
 import { format, parseISO } from 'date-fns';
-import { ScrollArea } from '@/components/ui/scroll-area';
+import { ScrollArea } from './ui/scroll-area';
 import { History as HistoryIcon, Trash2, Calendar } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Button } from '@/components/ui/button';
-import { Separator } from '@/components/ui/separator';
+import { Button } from './ui/button';
+import { Separator } from './ui/separator';
 
 interface HistoryProps {
   records: TitheRecord[];
